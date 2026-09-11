@@ -1,9 +1,9 @@
-# waste-classification
+# waste_classification
 A deep learning model for classifying waste into 10 categories and detecting multiple objects in a single image, using a custom CNN, task‑tailored metrics and other stuff.
 
-## Scripts
-- **`regular_cnn.py`** – Starts with a simple CNN and evolves into a ResNet‑style CNN with residual blocks.
-- **`fom.py`** – Full advanced pipeline with task‑tailored FoM and multi‑object detection.
+## src
+- **`regular_cnn.py`**: Starts with a simple CNN and evolves into a ResNet‑style CNN with residual blocks.
+- **`fom.py`**: Full pipeline with task‑tailored FoM and multi‑object detection.
 
 ## Features
 - 10‑class waste classification
@@ -17,7 +17,7 @@ Below is the architecture of the first regular CNN model:
 
 ![Model Architecture](images/reg_cnn.jpg)
 
-## Detailed Project Documentation
+## Documentation
 For a full explanation of the project, including motivation, methodology, results, and analysis, refer to:
 
 [Project Details Document](doc/project_details.pdf)
